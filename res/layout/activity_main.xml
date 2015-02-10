@@ -1,0 +1,117 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    tools:context=".MainActivity"
+    android:id="@+id/relative_layout">
+
+    <TextView
+        android:id="@+id/text_view"
+        android:text="@string/hello_world"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content" />
+
+
+    <ScrollView
+        android:id="@+id/scrool_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+
+        <LinearLayout
+            android:layout_marginTop="20dp"
+            android:layout_below="@+id/text_view"
+            android:id="@+id/liner_layout"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <Button
+                android:id="@+id/button_ok"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Button Ok"></Button>
+
+            <Button
+                android:id="@+id/button_ok_cancel"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Ok &amp; Cancel"></Button>
+
+            <Button
+                android:id="@+id/button_three"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Three Button"></Button>
+
+            <Button
+                android:id="@+id/button_timePicker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Time Picker"></Button>
+
+            <Button
+                android:id="@+id/button_Date_picker"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date Picker">
+
+            </Button>
+
+            <Button
+                android:id="@+id/button_ListView"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="List View"></Button>
+
+            <Button
+                android:id="@+id/button_scrollview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="ScrollView"></Button>
+
+            <Button
+                android:id="@+id/button_edittext"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="EditText Field"
+
+                ></Button>
+
+            <Button
+                android:id="@+id/button_webview"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="webview"></Button>
+
+            <Button
+                android:id="@+id/button_customLayout"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Customize Layout"></Button>
+
+            <Button
+                android:id="@+id/button_singleChoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Single Choice"></Button>
+
+            <Button
+                android:id="@+id/button_MultipleChoice"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Multiple Choice"
+
+                ></Button>
+
+
+        </LinearLayout>
+
+    </ScrollView>
+
+
+</RelativeLayout>
